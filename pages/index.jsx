@@ -47,7 +47,7 @@ export default function Home(props) {
       <div className={styles.description}>
         <h2 className={styles.subtitle}>About</h2>
         <p>
-          Booze Perooze is an application for searching and saving cocktail names, ingredients, and step-by-step recipes.  Booze Perooze provides a simple and effective search and bookmarking application that provides cocktail ingredient and recipes all in one environment.
+          Booze Perooze is an application for searching and saving cocktail names, ingredients, and step-by-step recipes.  Booze Perooze provides a simple and effective search and bookmarking application that provides cocktail ingredients and recipes all in one environment.
         </p>
         <p>
           Users can bookmark cocktails to their favorites list, where they can access them quickly within the application.  Rather than sifting through information on search engines or within long webpages that include written background for a cocktail recipe, Booze Perooze provides a simple interface – without the distractions or extra information!
