@@ -1,0 +1,18 @@
+.title {
+  margin: 0;
+  padding-top: 40px;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  color: rgb(239, 132, 103);
+}
+
+.noDrinks {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 100px;
+}
+  
+.noDrinks p:nth-of-type(2) {
+  font-size: 18px;
+}

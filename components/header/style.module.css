@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background: rgb(218, 246, 255);
+}
+
+.logo {
+  margin-left: 15px;
+  width: 28px;
+  height: auto;
+}
+
+.siteName {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(239, 132, 103);
+}
+
+.header .links {
+  font-size: 18px;
+}
+
+.header .links a {
+  margin: 0 20px;
+}
+
+@media (max-width: 700px) {
+  .logo {
+    width: 45px;
+    height: auto;
+  }
+  
+  .siteName {
+    font-size: 50px;
+  }
+  
+  .header .links {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .header .links a {
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: rgb(239, 132, 103);
+    border: solid 5px rgb(239, 132, 103);
+    border-radius: 20px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}

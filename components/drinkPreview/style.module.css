@@ -1,0 +1,27 @@
+.preview {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px;
+  align-items: center;
+  text-align: center;
+  width: 225px;
+  height: auto;
+}
+
+.preview:hover {
+  background-color:  rgb(218, 246, 255);
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 2px 2px 12px gray;
+  transform: scale(1.1);
+  transition: 500ms ease;
+}
+
+.preview p {
+  margin: 0;
+  padding: 2px;
+}
+
+.preview img {
+  margin-bottom: 10px;
+}
